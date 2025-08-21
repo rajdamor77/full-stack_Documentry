@@ -1,0 +1,42 @@
+* {
+     max-width: 0;
+     padding: 0;
+    
+ }
+
+.box{
+    /* height: 100px; */
+    width: 200px;
+}
+
+ .box1 {
+    background-color: lightcyan;
+border: solid black 5px;
+padding:120px 120px ;
+margin: 100px;
+ }
+
+ .box2{
+    background-color: aqua;
+    border: solid black 2px;
+    padding: 145px 145px;
+    margin: 100px;
+}
+
+.c {
+    height: 200px;
+    height: 200px;
+    margin-left: 28px;
+}
+
+.c1 {
+    background-color: cyan;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-y: hidden;
+}
+
+.c2 {
+    margin-top: 40px;
+    background-color: hotpink;
+}

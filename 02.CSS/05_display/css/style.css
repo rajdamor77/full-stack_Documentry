@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    border: border-box;
+}
+
+.p1 {
+    padding: 10px;
+    background-color: darkcyan;
+    width: 80px;
+    margin: 20px;
+}
+.p2 {
+    padding: o;
+    background-color: darkorchid;
+    width: 80px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.box1 {
+    padding: 10px;
+    background-color: darkgreen;
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+.box2 {
+    padding: 20px;
+    background-color: darkblue;
+    width: 100px;
+    display: none;
+}

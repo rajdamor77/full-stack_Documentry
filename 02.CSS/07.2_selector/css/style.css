@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.selector ul li a{
+    padding: 12px 32px;
+}
+
+.selector ul li:first-child a{
+    background-color: hotpink;
+}
+
+.selector ul li:last-child a{
+    background-color: darkolivegreen;
+}
+
+.selector ul li:nth-child(2) a{
+    background-color: darkblue;
+}
+
+.selector ul li:nth-child(3) a{
+    background-color: darkmagenta;
+}
+
+.selector ul li:nth-child(4) a{
+    background-color: darkcyan;
+}

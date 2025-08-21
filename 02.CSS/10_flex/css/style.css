@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+}
+
+.perent {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   height: 1200px;
+   justify-content: space-evenly;
+   height: 100vh;
+   direction: row;
+
+}
+
+.perent .child {
+    height: 300px;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.perent .child:nth-child(even) {
+    background-color: cyan;
+}
+
+.perent .child:nth-child(odd) {
+    background-color: tomato;
+}

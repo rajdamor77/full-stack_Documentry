@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+body {
+    background-color: darkturquoise;
+}
+
+.selectors .container, .parent1 p {
+    color: darkred;
+    margin-bottom: 20px;
+}
+
+.selectors .perent2  p{
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.selectors .perent2 div > p{
+    color: darkmagenta;
+
+}
+
+.selectors .perent1,
+.selectors .perent2,
+.selectors .perent3 {
+    background-color: lightgray;
+    margin: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.selectors .perent3 > p{
+    margin-bottom: 20px;
+    color: darkblue
+    
+}
+
+.selectors .perent3 div + p{
+    margin-bottom: 20px;
+    color:darkmagenta ;
+    
+}
+
+.selectors .perent3 div ~ p{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    margin-top: 20px;
+}

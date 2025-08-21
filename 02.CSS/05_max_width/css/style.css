@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    display: inline-block;
+    background-color: lightgreen;
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+.box2 {
+    margin-top: 20px;
+    display: inline-block;
+    min-width: 800px;
+    background-color: lightcoral;
+
+}
+
+.box3 {
+    margin-top: 20px;
+    max-height: 40px;
+    background-color: lightskyblue;
+
+}
+.box4 {
+    margin-top: 30px;
+    min-height: 40px;
+    background-color: lightpink;
+}

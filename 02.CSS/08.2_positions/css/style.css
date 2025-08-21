@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div {
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.p1 {
+    background-color: lightseagreen;
+    position: static;
+}
+
+.static .box1{
+    background-color: tomato;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid;
+}
+
+.static .box2 {
+    background-color: lightsteelblue;
+    position: fixed;
+    padding: 10px;
+    border: 2px solid;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+form[type="text"]{
+    padding: 16px;
+    padding-right: 77px;
+}
+
+form[type="submit"]{
+    padding: 12px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}

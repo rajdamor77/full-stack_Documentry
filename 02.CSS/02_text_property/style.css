@@ -1,0 +1,98 @@
+.font-size .p1{
+  font-size: 35px;
+  color: red;
+}
+
+.font-size .p2{
+    font-size: 25px;
+    color: lightcoral;
+}
+.text-align .p1{
+    text-align: justify;
+    color: brown;
+} 
+
+.text-align .p2{
+    text-align: right;
+    color: darkcyan;
+}
+
+.line-height .p1{
+    line-height: 90px;
+}
+
+.letter-spacing .p1{
+ letter-spacing: 14px;
+ color: tomato;
+}
+.letter-spacing .p2{
+    letter-spacing: 18px;
+    color: darkred;
+}
+
+.word-spacing .p1{
+    word-spacing: 20px;
+    color: darkorange;
+}
+.word-spacing .p2{
+    word-spacing: 28px;
+    color: blue;
+}
+.text-decoration .p1{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.text-decoration .p2{
+    text-decoration: dashed;
+}
+
+.font-style .p1{
+    font-style: oblique;
+}
+.font-style .p2{
+    font-style: initial;
+}
+
+.text-transform .p1{
+    text-transform: uppercase;
+    color: rebeccapurple;
+}
+.text-transform .p2{
+    text-transform: lowercase;
+    color: lightcoral;
+}
+
+.text-indent .p1{
+    text-indent:80px;
+    color: darkmagenta;
+}
+
+.text-indent .p2{
+    text-indent: 100px;
+    color: darkgreen;
+}
+
+.list-style ol{
+    list-style:lower-greek ;
+}
+.list-style ul{
+    list-style:lower-alpha;
+}
+
+.font-family .p1{
+    font-family: "Bitcount Single", system-ui;
+    color: hotpink
+}
+.font-weight .p1{
+}
+
+   
+.font-weight .p2{
+    font-weight: lighter;
+    font: weight 200px;;
+}
+
+
+.font-icon p{
+    size: 35px;
+}
