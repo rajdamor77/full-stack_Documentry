@@ -103,8 +103,8 @@ main .main-content a {
 
 main .main-pic img{
   margin-top: 30px;
-  height: 100%;
-  width: 100%;
+  /*height: 100%;
+  width: 100%;*/
   object-fit: cover;
   animation: rotate360 20s linear infinite;
   
@@ -826,6 +826,7 @@ section .service-card p {
 .footer-container ul li {
     margin: 0 0 8px;
     color: var(--white-light);
+    font-family: var(--font-nunito);
 }
 
 .footer-container p i {
@@ -834,13 +835,15 @@ section .service-card p {
 
 .social-mid i{
     border: 1px solid;
-    padding: 0 0 4px;
+    padding: 5px 20px 5px 8px  ;
     border-radius: 50%;
     line-height: 1.1;
 }
 .social-mid i:hover{
-    color:var(--orange-color);
+    color:var(--white-light);
+    background-color: var(--orange-color);
     transition: 0.5s;
+
 }
 
 .footer-container .col-3 p i{
