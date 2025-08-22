@@ -12,7 +12,11 @@
 }
 
 :root {
-    
+  --orange-color:#fea116;
+  --darkblue-color:#0F172B;
+  --white-color:#dee2e6;
+  --white-light:#ffffff;
+  --grey-color:#666565;
 }
 
 .container {

@@ -11,5 +11,22 @@
     .container{
         max-width: 960px;
     }
+   
 }
 
+@media (max-width:991) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (max-width:767) {
+    .container{
+        max-width: 540px;
+    }
+}
+@media (max-width:575) {
+    .container{
+        max-width: 100%;
+    }
+
+}

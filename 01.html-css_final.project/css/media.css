@@ -1,12 +1,137 @@
-@media (max-width:1399px) {
-    .container {
-        max-width:1140px;
+/* width:1400px */
+
+@media (max-width:1400px) {
+    .containar {
+        width: 1320px;
+        margin: 0 auto;
     }
-    
+
+    main .containar {
+        width: 100%;
+    }
+
+    .col-xxl {
+        width: 25%;
+    }
 }
 
+/* width:1399px */
+
+@media (max-width:1399px) {
+    .containar {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    .col-xl {
+        width: 25%;
+    }
+
+    .menu-list .meal-info p {
+        margin-right: 100px;
+    }
+}
+
+/* width:1199px */
+
 @media (max-width:1199px) {
-    .container{
-        max-width: 960px;
+    .containar {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .col-lg {
+        width: 50%;
+    }
+}
+
+/* width:991px */
+
+@media (max-width:991px) {
+    .containar {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .col-md {
+        width: 50%;
+    }
+
+    header {
+        background-color: var(--bule-800);
+        padding: 45px;
+    }
+
+    header nav {
+        display: none !important;
+    }
+
+    header nav+div.nav-icon {
+        display: block !important;
+
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+
+    main .main-pic{
+        padding: 48px;
+    }
+
+    main .main-contant{
+        text-align: center;
+    }
+
+    .reservation .reservation-vedio{
+        height: 500px;
+    }
+
+}
+
+
+
+/* width:767px */
+
+@media (max-width:767px) {
+    .containar {
+        width: 540px;
+        margin: 0 auto;
+    }
+
+    .col-sm {
+        width: 100%;
+    }
+
+    .reservation-vedio {
+        width: 100%;
+    }
+
+    .reservation-form1 {
+        width: 100%;
+    }
+
+}
+
+
+/* width:575px */
+
+@media (max-width:575px) {
+    .containar {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .col-xs {
+        width: 100%;
+    }
+
+    .col-xs-12{
+        width: 100%;
+    }
+
+    .about .about-info .exp ul{
+        margin: 8px;
     }
 }
