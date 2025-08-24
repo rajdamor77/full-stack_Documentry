@@ -1,13 +1,28 @@
-
+/* xl 1399-1200 */
 @media (max-width:1399px) {
     .container {
-        max-width: 1320px;
-        margin: 50px 50px;
+        max-width: 1140px;
+
     }
+
+    .col-md-12{
+        width: 50%;
+    }
+
+    header{
+        background-color: var(--darkblue-color);
+        padding: 45px;
+    }
+
+    header nav{
+        display: none !important;
+    }
+
+   
 }
 
 
-
+/* lg 1199-922 */
 @media (max-width:1199px){
     .container{
         max-width: 960px;
@@ -15,146 +30,27 @@
 
 }
 
-
-
-
-
-
-
-/* width:1400px 
-
-@media (max-width:1199px) {
-    .containar {
-        max-width:960 !;
-    }
-
-    main .containar {
-        width: 100%;
-    }
-
-    .col-xxl {
-        width: 25%;
+/* md */
+@media (max-width:991px){
+    .container{
+        max-width: 720px;
     }
 }
 
-
-
-@media (max-width:1399px) {
-    .containar {
-        width: 1140px;
-        margin: 0 auto;
-    }
-
-    .col-xl {
-        width: 25%;
-    }
-
-    .menu-list .meal-info p {
-        margin-right: 100px;
+/* sm */
+@media (max-width:767px){
+    .container{
+        max-width: 540px;
     }
 }
 
-
-
-@media (max-width:1199px) {
-    .containar {
-        width: 960px;
-        margin: 0 auto;
-    }
-
-    .col-lg {
-        width: 50%;
-    }
-}
-
-
-
-@media (max-width:991px) {
-    .containar {
-        width: 720px;
-        margin: 0 auto;
-    }
-
-    .col-md {
-        width: 50%;
-    }
-
-    header {
-        background-color: var(--darkblue-color);
-        padding: 45px;
-    }
-
-    header nav {
-        display: none !important;
-    }
-
-    header nav+div.nav-icon {
-        display: block !important;
-
-    }
-
-    .col-md-12{
-        width: 100%;
-    }
-
-    main .main-pic{
-        padding: 48px;
-    }
-
-    main .main-contant{
-        text-align: center;
-    }
-
-    .reservation .reservation-vedio{
-        height: 500px;
-    }
-
-}
-
-
-
-
-
-@media (max-width:767px) {
-    .containar {
-        width: 540px;
-        margin: 0 auto;
-    }
-
-    .col-sm {
-        width: 100%;
-    }
-
-    .reservation-vedio {
-        width: 100%;
-    }
-
-    .reservation-form1 {
-        width: 100%;
-    }
-
-}
-
-
-
+/* xs */
 
 @media (max-width:575px) {
-    .containar {
-        width: 100%;
-        margin: 0 auto;
-    }
+   .container{
+    max-width: 100%;
+   }
+}
 
 
-    .col-xs {
-        width: 100%;
-    }
 
-    .col-xs-12{
-        width: 100%;
-    }
-
-    .about .about-info .exp ul{
-        margin: 8px;
-    }
-} 
-    */

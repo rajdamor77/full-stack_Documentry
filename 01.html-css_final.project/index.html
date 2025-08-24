@@ -32,8 +32,8 @@
 
   <body>
     <header>
-      <div class="container d-flex justify-space-between align-items">
-        <div class="logo">
+      <div class="container d-flex justify-space-between align-items" id="up">
+        <div class="logo .col-md-12">
           <a href="">
             <h2><i class="fa-solid fa-utensils"></i>Restoran</h2>
           </a>
@@ -131,27 +131,27 @@
     </section>
 
     <section class="about">
-      <div class="container d-flex">
-        <div class="col-6 about-gallery row">
-          <div class="col-6">
-            <div class="about-img" id="img1">
+      <div class="container row">
+        <div class="col-6 about-gallery row align-content-center ">
+          <div class="col-6 col">
+            <div class="about-img" >
               <img src="image/about-1.jpg" alt="" />
             </div>
           </div>
 
-            <div class="col-6">
-              <div class="about-img" id="img2">
+            <div class="col-6 second">
+              <div class="about-img" >
                 <img src="image/about-2.jpg" alt="" />
               </div>
             </div>
 
-            <div class="col-6">
-              <div class="about-img" id="img3">
+            <div class="col-6 third">
+              <div class="about-img" >
                 <img src="image/about-3.jpg" alt="" />
               </div>
             </div>
             <div class="col-6">
-              <div class="about-img" id="img4">
+              <div class="about-img">
                 <img src="image/about-4.jpg" alt="" />
               </div>
              </div>
@@ -553,8 +553,10 @@
             </div>
         </section>
 
-        <footer class="footer align-item">
-            <div class="footer-container d-flex justify-conten">
+        <footer>
+
+            <div class="container">
+              <div class="imformation d-flex">
                 <div class="col-3">
                     <h3>company</h3>
                     <ul>
@@ -578,10 +580,10 @@
 
                     </ul>
                 </div>
-                <div class="col-3 ">
+                <div class="col-3 contact">
                     <h3>contact</h3>
                     <p><i class="fa-solid fa-location-dot"></i>123 street, new york,USA</p>
-                    <p><i class="fa-solid fa-phone"></i>0325642</p>
+                    <p><i class="fa-solid fa-phone"></i>+012 345 67890</p>
                     <p><i class="fa-solid fa-envelope"></i>info@Email.com</p>
                     <div class="social-mid">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -590,24 +592,57 @@
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
-                <div class="col-3">
-                    <h3>opning</h3>
+                <div class="col-3 opning">
+                    <h3>opening</h3>
                     <p>monday-saturday </p>
                     <p>09AM-09PM</p>
                     <br>
                     <p>sunday </p>
                     <p>10AM-8PM</p>
                 </div>
-                <div class="col-3 ">
+                <div class="col-3 newsletter">
                     <h3>Newsletter</h3>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <input type="text" placeholder="Your Email">
+                    <p>Dolor amet sit justo amet elitr clita <br>ipsum elitr est.</p>
+                    <form>
+                      <input type="text" placeholder="Your Email">
                     <button type="submit">SINGUP</button>
+                    </form>
+                </div>
+              </div>
+                
+              
+                <div class="footer-2 ">
+                  
+                  <div class="last-info d-flex">
+                    <p>© Your Site Name, All Right Reserved. Designed By HTML Codex</p>
+                    <div class="last-link">
+                      <a href="">Book</a>
+                    <a href="">Cookies</a>
+                    <a href="">Help</a>
+                    <a href=""> FQAs</a>
+                    </div>
+                  </div>
+
+                   <div>
+                  <p>Distributed By ThemeWagon</p>
+                   </div>
                 </div>
 
+                
+            
             </div>
 
+            
         </footer>
+      
+    
+       <div class="down-to-up">
+          <a href="#up"><i class="fa-solid fa-arrow-up"></i> </a>
+        </div>
 
+        
   </body>
+
+  
+        
 </html>
