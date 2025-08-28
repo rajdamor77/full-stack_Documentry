@@ -1,0 +1,42 @@
+/* 1399-1200 */
+@media (max-width:1399px){
+    .container{
+        background-color: darkmagenta;
+        max-width: 1140px;
+    }
+}
+
+
+
+@media (max-width:1199px){
+    .container{
+        background-color: darkcyan;
+        max-width: 960px;
+    }
+}
+
+
+
+@media (max-width:911px){
+    .container{
+        background-color: darkorange;
+        max-width: 720px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .container{
+        background-color: darkslateblue;
+        max-width: 540px;
+    }
+}
+
+@media(max-width:575px){
+    .container{
+        background-color: darkturquoise;
+        max-width: 100%;
+    }
+}
+

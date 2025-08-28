@@ -1,0 +1,42 @@
+@media (min-width:575px){
+    .container{
+        background-color: lightseagreen;
+        min-width: 100%;
+    }
+}
+
+@media (min-width:576px){
+ .container{
+    background-color: lightcoral;
+    min-width: 540px;
+ }
+}
+
+@media (min-width:768px) {
+    .container{
+        background-color: lightsteelblue;
+        min-width: 720px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .container{
+        background-color: lightpink;
+        min-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{
+        background-color: lightgoldenrodyellow;
+        min-width: 1140px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container{
+        background-color: darkcyan;
+        min-width: 1320px;
+    }
+}
