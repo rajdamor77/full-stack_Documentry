@@ -104,9 +104,9 @@ main .main-content a {
 main .main-pic img{
   display: block;
   object-fit: cover;
-  animation: rotate360 20s linear infinite;
+  animation: rotate360 40s linear infinite;
   height: auto;
- 
+  padding: 25px;
   
 }
 
@@ -170,8 +170,7 @@ section .service-card p {
 
 .about .col-6 .second img{
   width: 75%;
-  margin-top: 25%;
-  
+  margin-top: 25%;  
 }
 
 .about .col-6 .third img{
@@ -609,7 +608,7 @@ section .service-card p {
     background-color: var(--orange-color);
     top: 18px;
     left: 745px;
-
+    
 }
 
 .team .team-members .member-card {
