@@ -75,6 +75,11 @@
     } */
     
     
+    main .main-pic {
+        overflow: hidden;
+    }
+    
+
 
    .resevation .container{
     max-width: 100%;
