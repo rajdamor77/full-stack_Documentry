@@ -55,10 +55,13 @@ let users = [{
 ]
 
 
-//undefine 
-let myunderfine = undefined
-let user = { name: "Raj" };
-console.log(user.age); // undefined (no 'age' property)
+// //undefine 
+// let myunderfine = undefined
+// let user = { name: "Raj" };
+// console.log(user.age); // undefined (no 'age' property) 
+
+
+
 
 
 
