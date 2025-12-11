@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-align: center;
+  line-height: 150px;
+}
+
+.box:hover{
+  background-color: rgb(44, 139, 177);
+}
